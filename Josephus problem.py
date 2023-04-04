@@ -1,3 +1,4 @@
+#There are n people standing in a circle, every kth person will be executed until 1 person remains
 def josephus_problem(n, k):
     circle = list(range(1, n+1))
     index = k-1
